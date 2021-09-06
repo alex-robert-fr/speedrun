@@ -1,1 +1,12 @@
-Hello start !
+{% extends 'base.html.twig' %}
+
+{% block title %}Start | {{parent()}}{% endblock %}
+
+{% block body %}
+    <header class="start_header"></header>
+    <main id="start" class="start_main">
+      <h1>Title</h1>
+      <p>Mon paragraphe explicatif de l'application speedrun.</p>
+      <a href="{{path('app_index_start')}}" class="next">Je m'inscrire</a>
+    </main>
+{% endblock %}

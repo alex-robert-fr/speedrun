@@ -1,0 +1,45 @@
+/*--- GENERAL ---*/
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 7vw;
+}
+p{
+  font-size: 4vw;
+}
+
+
+/*--- COMPONENTS ---*/
+button.next{
+  position: absolute;
+  bottom: 15px;
+  font-size: 6vw;
+  font-weight: bold;
+  width: 95%;
+  padding: 5px 0;
+}
+
+
+/*--- INDEX ---*/
+#index{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-bottom: 55px;
+}
+.logo{
+  background-color: #444;
+  width: 235px;
+  height: 235px;
+}
+#index > h1{
+  margin: 20px 0 10px;
+}
